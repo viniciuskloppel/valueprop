@@ -1,0 +1,96 @@
+html {
+    font-size: 16px;
+    width: 100vw;
+}
+body {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+div.wrapper {
+    max-width: 1376px;
+    width: 95%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    margin-top: 16px;
+    position: relative;
+}
+.customer-icon {
+    float: left;
+}
+h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2rem;
+    align-self: center;
+     margin-left: 16px;
+}
+.perfil-cliente {
+    margin-top: 64px;
+}
+h2 {
+    font-family: 'Hind';
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Hind';
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 24px;
+}
+h4 {
+    font-family: 'Poppins', cursive;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+div.perfil-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.dores {
+    justify-content: center;
+}
+/*.perfil-wrapper ul:first-child {
+    margin-left: 0;
+}*/
+ul.tarefas {
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 304px;
+    min-height: 430px;
+    background-color: #fff177;
+    box-shadow: 0px 4px 3px 1px rgba(0,0,0,0.1);
+}
+tarefas li {
+    margin-top: 16px;
+}
+.text-input {
+    resize: none;
+    outline: none;
+    display: block;
+    border: none;
+    width: 75%;
+    min-height: 430px;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: inherit;
+    font-family: "Hind";
+    font-size: 1.125rem;
+    overflow: hidden;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
